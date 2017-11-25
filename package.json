@@ -1,0 +1,30 @@
+{
+  "name": "friendfinderapp",
+  "version": "1.0.0",
+  "description": "Friend Finder Online Friend Finding App",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boslott/friendFinderApp.git"
+  },
+  "keywords": [
+    "friend",
+    "finder",
+    "node",
+    "app"
+  ],
+  "author": "Bo Slott",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/boslott/friendFinderApp/issues"
+  },
+  "homepage": "https://github.com/boslott/friendFinderApp#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
+  }
+}
