@@ -1,5 +1,5 @@
 # **Friend Finder**
-## Online Friend-Finding App
+### Online Friend-Finding App
 
 
 The Friend Finder App provides an opportunity to form a life-long, ever-giving, ever-rewarding bond with another special human being out in the world.
