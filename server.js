@@ -8,7 +8,7 @@ const path = require('path');
 const app = express();
 
 // Set the port to listen on
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3000;
 
 //  Middleware
 //   Sets the express app to handle parsing
