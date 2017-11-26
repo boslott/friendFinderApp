@@ -1,71 +1,56 @@
-# [Start Bootstrap - Creative](https://startbootstrap.com/template-overviews/creative/)
+#**Friend Finder**
+##Online Friend-Finding App
 
-[Creative](http://startbootstrap.com/template-overviews/creative/) is a one page creative theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
 
-## Preview
+The Friend Finder App provides an opportunity to form a life-long, ever-giving, ever-rewarding bond with another special human being out in the world.
 
-[![Creative Preview](https://startbootstrap.com/assets/img/templates/creative.jpg)](https://blackrockdigital.github.io/startbootstrap-creative/)
+Friend Finder takes all the work out of finding a new friend.
 
-**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-creative/)**
+You don't have to go anywhere or talk to anyone.
 
-## Status
+Just answer a few quick questions and Friend Finder will introduce you to your new friend.
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-creative/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-creative.svg)](https://www.npmjs.com/package/startbootstrap-creative)
-[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-creative.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-creative)
-[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-creative/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-creative)
-[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-creative/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-creative?type=dev)
+Ready to get started?
 
-## Download and Installation
+[<img src="https://github.com/boslott/friendFinderApp/blob/master/public/img/heroShot.png">](https://gentle-garden-22232.herokuapp.com)
 
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/creative/)
-* Install via npm: `npm i startbootstrap-creative`
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-creative.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-creative)
 
-## Usage
+[Click Here To Be Friended!](https://gentle-garden-22232.herokuapp.com)
 
-### Basic Usage
+---
 
-After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
+### Design Process 
 
-### Advanced Usage
+* The App's UI is based around a [StartBootStrap.com](https://startbootstrap.com) template.
 
-After installation, run `npm install` and then run `gulp dev` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
+* The App first draws the user in, sends the user through a short journey of education as to what and why the App is all about
 
-#### Gulp Tasks
+* The App then sends the user to the short questionaire
 
-- `gulp` the default task that builds everything
-- `gulp dev` browserSync opens the project in your default browser and live reloads when changes are made
-- `gulp sass` compiles SCSS files into CSS
-- `gulp minify-css` minifies the compiled CSS file
-- `gulp minify-js` minifies the themes JS file
-- `gulp copy` copies dependencies from node_modules to the vendor directory
+* After answering the questions, the App shows the user a new friend via a popup Modal
 
-## Bugs and Issues
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-creative/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/creative/).
+---
 
-## Custom Builds
+###Technologies
 
-You can hire Start Bootstrap to create a custom build of any template, or create something from scratch using Bootstrap. For more information, visit the **[custom design services page](https://startbootstrap.com/bootstrap-design-services/)**.
+* [StartBootStrap.com](https://startbootstrap.com) - Bootstrap theme
 
-## About
+* Full Stack
+    * User Interface
+    * API POST request with user data
+    * Node.js/Express Framework
+    * No database - only a data file
 
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
+* Node.js runtime environment
+* Express.js server routing
+* Heroku hosting
 
-* https://startbootstrap.com
-* https://twitter.com/SBootstrap
+---
 
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
+###Future Development
 
-* http://davidmiller.io
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
+Possibilities:
 
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
-
-Copyright 2013-2017 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-creative/blob/gh-pages/LICENSE) license.
+* Add a database to store more friends
+* Add / exchange questions for more in-depth, more precise soul-matching
