@@ -1,5 +1,5 @@
-#**Friend Finder**
-##Online Friend-Finding App
+# **Friend Finder**
+## Online Friend-Finding App
 
 
 The Friend Finder App provides an opportunity to form a life-long, ever-giving, ever-rewarding bond with another special human being out in the world.
@@ -31,7 +31,7 @@ Click the image to be Friended!
 
 ---
 
-###Technologies
+### Technologies
 
 * [StartBootStrap.com](https://startbootstrap.com) - Bootstrap theme
 
@@ -47,7 +47,7 @@ Click the image to be Friended!
 
 ---
 
-###Future Development
+### Future Development
 
 Possibilities:
 
