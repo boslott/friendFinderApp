@@ -1,5 +1,5 @@
-#**Friend Finder**
-##Online Friend-Finding App
+# **Friend Finder**
+## Online Friend-Finding App
 
 
 The Friend Finder App provides an opportunity to form a life-long, ever-giving, ever-rewarding bond with another special human being out in the world.
@@ -12,14 +12,13 @@ Just answer a few quick questions and Friend Finder will introduce you to your n
 
 Ready to get started?
 
-[<img src="https://github.com/boslott/friendFinderApp/blob/master/public/img/heroShot.png">](https://gentle-garden-22232.herokuapp.com)
+[<img src="https://github.com/boslott/friendFinderApp/blob/master/public/img/heroShot.png" width="250" height="200" >](https://gentle-garden-22232.herokuapp.com)
 
-
-[Click Here To Be Friended!](https://gentle-garden-22232.herokuapp.com)
+Click the image to be Friended!
 
 ---
 
-### Design Process 
+### Design Process
 
 * The App's UI is based around a [StartBootStrap.com](https://startbootstrap.com) template.
 
@@ -32,7 +31,7 @@ Ready to get started?
 
 ---
 
-###Technologies
+### Technologies
 
 * [StartBootStrap.com](https://startbootstrap.com) - Bootstrap theme
 
@@ -48,9 +47,21 @@ Ready to get started?
 
 ---
 
-###Future Development
+### Demonstration
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/20K0AWhdGNY?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+
+---
+
+### Future Development
 
 Possibilities:
 
 * Add a database to store more friends
 * Add / exchange questions for more in-depth, more precise soul-matching
+
+---
+
+### Copyright
+
+&copy; Copyright 2017 Bo Slott - All Rights Reserved
