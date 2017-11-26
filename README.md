@@ -49,7 +49,9 @@ Click the image to be Friended!
 
 ### Demonstration
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/20K0AWhdGNY?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+Demonstration Video: 
+
+https://youtu.be/20K0AWhdGNY
 
 ---
 
