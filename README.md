@@ -1,5 +1,5 @@
 # **Friend Finder**
-### Online Friend-Finding App
+## Online Friend-Finding App
 
 
 The Friend Finder App provides an opportunity to form a life-long, ever-giving, ever-rewarding bond with another special human being out in the world.
@@ -12,7 +12,7 @@ Just answer a few quick questions and Friend Finder will introduce you to your n
 
 Ready to get started?
 
-[<img src="https://github.com/boslott/friendFinderApp/blob/master/public/img/heroShot.png" width="300" height="200" >](https://gentle-garden-22232.herokuapp.com)
+[<img src="https://github.com/boslott/friendFinderApp/blob/master/public/img/heroShot.png" width="250" height="200" >](https://gentle-garden-22232.herokuapp.com)
 
 Click the image to be Friended!
 
@@ -44,6 +44,12 @@ Click the image to be Friended!
 * Node.js runtime environment
 * Express.js server routing
 * Heroku hosting
+
+---
+
+### Demonstration
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/20K0AWhdGNY?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ---
 
