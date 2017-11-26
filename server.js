@@ -10,8 +10,10 @@ const app = express();
 // Set the port to listen on
 const PORT = process.env.PORT || 3001;
 
-// Sets the express app to handle parsing
-app.use(bodyParser.urlencoded({ extended : false }));
+//  Middleware
+//   Sets the express app to handle parsing
+//   Handles static-file requests
+app.use(bodyParser.urlencoded({ extended : true }));
 app.use(bodyParser.json());
 app.use(express.static('public'));
 

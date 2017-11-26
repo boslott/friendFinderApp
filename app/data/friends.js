@@ -2,7 +2,7 @@
 const friendsArray = [
   {
     "name": "Carl",
-    "photo": "",
+    "photo": "img/carl.jpg",
     "scores": [
       "3",
       "3",
@@ -18,7 +18,7 @@ const friendsArray = [
   },
   {
     "name": "Carlton",
-    "photo": "",
+    "photo": "img/carl4.jpg",
     "scores": [
       "5",
       "5",
@@ -34,7 +34,7 @@ const friendsArray = [
   },
   {
     "name": "Carla",
-    "photo": "",
+    "photo": "img/carl5.jpg",
     "scores": [
       "4",
       "5",
@@ -50,7 +50,7 @@ const friendsArray = [
   },
   {
     "name": "Carli",
-    "photo": "",
+    "photo": "img/carl3.jpg",
     "scores": [
       "3",
       "2",
@@ -66,7 +66,7 @@ const friendsArray = [
   },
   {
     "name": "Carlstan",
-    "photo": "",
+    "photo": "img/carl2.jpg",
     "scores": [
       "5",
       "4",
@@ -82,7 +82,7 @@ const friendsArray = [
   },
   {
     "name": "Carligretta",
-    "photo": "",
+    "photo": "img/carl6.jpg",
     "scores": [
       "1",
       "2",
