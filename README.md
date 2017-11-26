@@ -12,7 +12,7 @@ Just answer a few quick questions and Friend Finder will introduce you to your n
 
 Ready to get started?
 
-[<img src="https://github.com/boslott/friendFinderApp/blob/master/public/img/heroShot.png">](https://gentle-garden-22232.herokuapp.com)
+<span style="text-align:center;">[<img src="https://github.com/boslott/friendFinderApp/blob/master/public/img/heroShot.png" width="250" height="200" >](https://gentle-garden-22232.herokuapp.com)</span>
 
 
 [Click Here To Be Friended!](https://gentle-garden-22232.herokuapp.com)
