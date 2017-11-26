@@ -49,9 +49,7 @@ Click the image to be Friended!
 
 ### Demonstration
 
-Demonstration Video: 
-
-https://youtu.be/20K0AWhdGNY
+[Click Here For Demo Video](https://youtu.be/20K0AWhdGNY)
 
 ---
 
