@@ -19,6 +19,9 @@ module.exports = app => {
     let friend = {};
     let diffsList = [];
 
+    console.log('req.body.scores = ' + req.body.scores);
+    
+
     let i = 0;
     for (i; i < friendsArr.length; i++) {
       diffsList[i] = {

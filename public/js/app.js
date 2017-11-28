@@ -1,21 +1,4 @@
 
-// Chosen CSS
-// var config = {
-//   '.chosen-select'            : {},
-//   '.chosen-select-deselect'   : {allow_single_deselect:true},
-//   '.chosen-select-no-single'  : {disable_search_threshold:10},
-//   '.chosen-select-no-results' : {no_results_text: 'Oops, nothing found!'},
-//   '.chosen-select-width'      : {width: '95%'}
-// }
-//
-// console.log(config['chosen-select-no-results']);
-//
-// for (var selector in config) {
-//   $(selector).chosen(config[selector]);
-// }
-
-
-//
 
 
 //  Capture the form inputs
@@ -24,22 +7,29 @@ $('#submit').on('click', event => {
   console.log('button clicked');
 
   // Form validation
-  // const validateForm = () => {
-  //   var isValid  = true;
-  //   $('.form-control').each( () => {
-  //     if ( $(this).val() === '' )
-  //       isValid = false;
-  //   });
+  const validateForm = () => {
+    let isValid  = true;
+    $('.form-control').each( function() {
+      if ( $(this).val() == '' ) {
+        console.log('form control is not valid');
+        isValid = false;
+      }
+    });
+
+
   //
-  //   $('.chosen-select').each( () => {
-  //     if ( $(this).val() === '')
-  //       isValid = false;
-  //   });
-  //   return isValid;
-  // };
+    $('.chosen-select').each( function() {
+      if ( $(this).val() === '---') {
+        console.log('chosen select is not valid');
+        isValid = false;
+      }
+    });
+    return isValid;
+  };
+  console.log('validateForm = ' + validateForm());
 
   // If all required fields are filled
-  // if (validateForm() === true) {
+  if (validateForm()) {
 
       // Create an object for the user's data
       var userData = {
@@ -62,9 +52,9 @@ $('#submit').on('click', event => {
       //  Grab the URL of the website
       var currentURL = window.location.origin;
 
-      // console.log ('currentURL = ' + currentURL);
-      // console.log(userData.photo + ' ' + userData.name);
-      // console.log(userData.scores + ' = answer no. 6');
+      console.log ('currentURL = ' + currentURL);
+      console.log(userData.photo + ' ' + userData.name);
+      console.log(userData.scores + ' = answer no. 6');
 console.log('about to post and userScores = ' + userData.scores);
       //AJAX post the data to the friends API
       $.post(currentURL + '/api/friends', userData, data => {
@@ -96,8 +86,8 @@ console.log('about to post and userScores = ' + userData.scores);
 
 
 
-  // } else {
-  //   alert('Please fill out all fields before submitting');
-  // }
-  // return false;
+  } else {
+    alert('Please fill out all fields before submitting');
+  }
+  return false;
 });
